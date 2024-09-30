@@ -1,0 +1,17 @@
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Infraestructure.deps.json
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Infraestructure.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Infraestructure.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\refint\CleanMinimal.Infraestructure.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\ref\CleanMinimal.Infraestructure.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMinimal.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Application.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Domain.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Domain.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\bin\Debug\net8.0\CleanMinimal.Application.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Infraestructure\obj\Debug\net8.0\CleanMin.E9038113.Up2Date

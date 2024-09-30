@@ -1,0 +1,25 @@
+## Ignorar carpetas de compilación
+bin/
+obj/
+
+## Ignorar configuraciones de usuario y temporales
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignorar archivos de paquete NuGet
+*.nupkg
+*.snupkg
+
+## Ignorar archivos de publicación y temporales
+*.vspscc
+.vscode/
+.vs/
+
+# Ignorar logs y dumps
+*.log
+*.tlog
+*.log.json
+*.dmp

@@ -1,0 +1,12 @@
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\bin\Debug\net8.0\CleanMinimal.Domain.deps.json
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\bin\Debug\net8.0\CleanMinimal.Domain.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\bin\Debug\net8.0\CleanMinimal.Domain.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\refint\CleanMinimal.Domain.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\ref\CleanMinimal.Domain.dll
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.Domain\obj\Debug\net8.0\CleanMinimal.Domain.csproj.AssemblyReference.cache
