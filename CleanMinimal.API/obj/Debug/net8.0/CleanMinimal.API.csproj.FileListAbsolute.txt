@@ -146,3 +146,4 @@ C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.API\bin\Debug
 C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.API\bin\Debug\net8.0\CleanMinimal.Application.pdb
 C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.API\bin\Debug\net8.0\CleanMinimal.Infraestructure.pdb
 C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.API\bin\Debug\net8.0\CleanMinimal.Domain.pdb
+C:\Users\diego\OneDrive\Desktop\projects\CleanMinimal\CleanMinimal.API\obj\Debug\net8.0\CleanMinimal.API.sourcelink.json

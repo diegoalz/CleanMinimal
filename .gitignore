@@ -1,6 +1,14 @@
 ## Ignorar carpetas de compilación
-bin/
-obj/
+# CleanMinimal.API/bin/
+# CleanMinimal.Domain/bin/
+# CleanMinimal.Application/bin/
+# CleanMinimal.Infraestructure/bin/
+# CleanMinimal.API/obj/
+# CleanMinimal.Domain/obj/
+# CleanMinimal.Application/obj/
+# CleanMinimal.Infraestructure/obj/
+**/bin/
+**/obj/
 
 ## Ignorar configuraciones de usuario y temporales
 *.user
