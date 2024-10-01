@@ -21,6 +21,10 @@ public class ApplicationDbContext : DbContext, IApplicationDbcontext, IUnitOfWor
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Sale>()
+            .HasOne(s => s.user)
+            .WithMany(u => u.sales)
+            .HasForeignKey(s => s.UserId);
         modelBuilder.Entity<User>()
             .HasMany(u => u.sales)
             .WithOne(s => s.user)

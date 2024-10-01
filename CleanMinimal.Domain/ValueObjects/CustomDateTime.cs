@@ -16,4 +16,9 @@ public partial record CustomDateTime
 
         return new CustomDateTime(dateTime);
     }
+
+    internal string GetFormatted(string format = "yyyy-MM-dd")
+    {
+        return Value.ToString(format);
+    }
 }

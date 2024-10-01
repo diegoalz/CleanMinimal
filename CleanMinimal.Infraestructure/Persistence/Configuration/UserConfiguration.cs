@@ -13,6 +13,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.ToTable("Users");
         builder.HasKey(u => u.Id);
         builder.Ignore(u => u.FullName);
+        // builder.Ignore(u => u.sales);
         builder.HasIndex(u => u.Email).IsUnique();
         
         builder.Property(u => u.Id).HasConversion(

@@ -28,6 +28,7 @@ public sealed class Sale : BaseAuditableModel
     public string Concept { get; set; }
     public CustomDateTime SaleDateTime { get; set; }
     public BaseId UserId { get; set; }
-    public decimal FormattedAmount => Amount * 100;
+    public decimal FormattedAmount => (decimal)Amount / 100;
+    public string FormattedSaleDateTime => SaleDateTime.GetFormatted("yyyy-MM-dd HH:mm:ss");
     public User user { get; set; }
 }

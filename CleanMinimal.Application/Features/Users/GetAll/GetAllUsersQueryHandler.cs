@@ -26,7 +26,15 @@ internal sealed class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery
                 user.FullName,
                 user.Email.Value,
                 user.PhoneNumber.Value,
-                user.Active
+                user.Active,
+                user.sales != null ? user.sales.Select(sale => new SaleResponse(
+                    sale.Id.Value,
+                    sale.Amount,
+                    sale.Concept,
+                    sale.FormattedSaleDateTime,
+                    sale.UserId.Value,
+                    sale.FormattedAmount
+                )).ToList() : new List<SaleResponse>()
             )).ToList();
     }
 }

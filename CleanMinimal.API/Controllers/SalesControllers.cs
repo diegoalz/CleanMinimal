@@ -1,3 +1,4 @@
+using CleanMinimal.Application.Features.Sales.GetAll;
 using CleanMinimal.Application.Features.Sales.Register;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -13,11 +14,16 @@ public class Sales : ApiController
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
     }
 
-    // [HttpGet]
-    // public async Task<IActionResult> GetAll(string query)
-    // {
-    //     var saleResult + await _mediator.Send(new GetAll)
-    // }
+    [HttpGet]
+    public async Task<IActionResult> GetAll(string? query)
+    {
+        var saleResult = await _mediator.Send(new GetAllSaleQuery(query));
+
+        return saleResult.Match(
+            sales => Ok(sales),
+            errors => Problem(errors)
+        );
+    }
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] RegisterSaleCommand command)
     {

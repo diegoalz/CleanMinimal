@@ -13,6 +13,8 @@ public class SaleConfiguration : IEntityTypeConfiguration<Sale>
         builder.ToTable("Sales");
         builder.HasKey(s => s.Id);
         builder.Ignore(s => s.FormattedAmount);
+        builder.Ignore(s => s.FormattedSaleDateTime);
+        // builder.Ignore(s => s.user);
         builder.Property(s => s.Id).HasConversion(
             BaseId => BaseId.Value,
             value => new BaseId(value)

@@ -13,8 +13,8 @@ public class UserRepository : IUserRepository
         _context = applicationDbContext ?? throw new ArgumentNullException(nameof(applicationDbContext));
     }
 
-    public Task<List<User>> GetAll(string query) => _context.Users.Where(u => (u.Name + " " + u.LastName).Contains(query)).ToListAsync();
-    public async Task<User?> SelectById(BaseId Id) => await _context.Users.SingleOrDefaultAsync(u => u.Id == Id);
+    public Task<List<User>> GetAll(string query) => _context.Users.Include(u => u.sales).Where(u => (u.Name + " " + u.LastName).Contains(query)).ToListAsync();
+    public async Task<User?> SelectById(BaseId Id) => await _context.Users.Include(u => u.sales).SingleOrDefaultAsync(u => u.Id == Id);
     public void Create(User user) => _context.Users.Add(user);
     public void Update(User user) => _context.Users.Update(user);
     public void Delete(BaseId Id) => _context.Users.Where(u => u.Id == Id).ExecuteDeleteAsync();
