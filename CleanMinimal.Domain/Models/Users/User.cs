@@ -44,5 +44,5 @@ public sealed class User : BaseAuditableModel
     public bool Active { get; set; } = true;
     public string FullName => $"{Name} {LastName}";
 
-    public List<Sale> sales { get; set; }
+    public List<Sale> sales { get; set; } = new List<Sale>();
 }
