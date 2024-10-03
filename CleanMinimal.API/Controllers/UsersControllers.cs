@@ -1,4 +1,5 @@
 using CleanMinimal.Application.Features.Users.GetAll;
+using CleanMinimal.Application.Features.Users.GeteById;
 using CleanMinimal.Application.Features.Users.Register;
 using CleanMinimal.Application.Features.Users.Update;
 using ErrorOr;
@@ -22,6 +23,15 @@ public class Users : ApiController
 
         return usersResult.Match(
             users => Ok(users),
+            errors => Problem(errors)
+        );
+    }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var userResult = await _mediator.Send(new GetByIdUserQuery(id));
+        return userResult.Match(
+            user => Ok(user),
             errors => Problem(errors)
         );
     }

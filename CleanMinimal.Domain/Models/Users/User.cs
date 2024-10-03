@@ -1,5 +1,4 @@
 using CleanMinimal.Domain.Common;
-using CleanMinimal.Domain.Models;
 using CleanMinimal.Domain.ValueObjects;
 
 namespace CleanMinimal.Domain.Models;
